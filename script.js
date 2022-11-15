@@ -1,5 +1,9 @@
 // API : https://api.chucknorris.io/jokes/random
 
+window.addEventListener('load', (event) => {
+    randomJoke();
+  });
+
 let btn = document.querySelector(".btn");
 
 // Added a click event on button
